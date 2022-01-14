@@ -1,0 +1,22 @@
+[3.235s] Invoking command in '/theobald/cdr2022/dev_ws/build/hal': PYTHONPATH=/theobald/cdr2022/dev_ws/install/hal/lib/python3.8/site-packages:/theobald/cdr2022/dev_ws/install/robot_interfaces/lib/python3.8/site-packages:/theobald/cdr2022/dev_ws/build/hal:/theobald/cdr2022/dev_ws/install/hal/lib/python3.8/site-packages:/theobald/test_ws/build/py_srvcli:/theobald/test_ws/install/py_srvcli/lib/python3.8/site-packages:/theobald/test_ws/build/py_pubsub:/theobald/test_ws/install/py_pubsub/lib/python3.8/site-packages:/theobald/test_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/theobald/test_ws/install/turtlesim/lib/python3.8/site-packages:/theobald/test_ws/build/python_parameters:/theobald/test_ws/install/python_parameters/lib/python3.8/site-packages:/theobald/test_ws/build/my_package:/theobald/test_ws/install/my_package/lib/python3.8/site-packages:/theobald/test_ws/install/action_tutorials_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --prefix /theobald/cdr2022/dev_ws/install/hal --editable --build-directory /theobald/cdr2022/dev_ws/build/hal/build --no-deps install_data --install-dir /theobald/cdr2022/dev_ws/install/hal
+[5.977s] running develop
+[6.968s] running egg_info
+[6.969s] creating robot_cdr2022.egg-info
+[6.970s] writing robot_cdr2022.egg-info/PKG-INFO
+[6.971s] writing dependency_links to robot_cdr2022.egg-info/dependency_links.txt
+[6.973s] writing entry points to robot_cdr2022.egg-info/entry_points.txt
+[6.974s] writing requirements to robot_cdr2022.egg-info/requires.txt
+[6.975s] writing top-level names to robot_cdr2022.egg-info/top_level.txt
+[6.984s] writing manifest file 'robot_cdr2022.egg-info/SOURCES.txt'
+[7.144s] reading manifest file 'robot_cdr2022.egg-info/SOURCES.txt'
+[7.147s] writing manifest file 'robot_cdr2022.egg-info/SOURCES.txt'
+[7.339s] running build_ext
+[7.341s] Creating /theobald/cdr2022/dev_ws/install/hal/lib/python3.8/site-packages/robot-cdr2022.egg-link (link to .)
+[7.344s] Installing hal script to /theobald/cdr2022/dev_ws/install/hal/lib/robot_cdr2022
+[7.345s] 
+[7.346s] Installed /theobald/cdr2022/dev_ws/build/hal
+[7.347s] running install_data
+[7.347s] copying resource/robot_cdr2022 -> /theobald/cdr2022/dev_ws/install/hal/share/ament_index/resource_index/packages
+[7.348s] creating /theobald/cdr2022/dev_ws/install/hal/share/robot_cdr2022
+[7.349s] copying package.xml -> /theobald/cdr2022/dev_ws/install/hal/share/robot_cdr2022
+[7.480s] Invoked command in '/theobald/cdr2022/dev_ws/build/hal' returned '0': PYTHONPATH=/theobald/cdr2022/dev_ws/install/hal/lib/python3.8/site-packages:/theobald/cdr2022/dev_ws/install/robot_interfaces/lib/python3.8/site-packages:/theobald/cdr2022/dev_ws/build/hal:/theobald/cdr2022/dev_ws/install/hal/lib/python3.8/site-packages:/theobald/test_ws/build/py_srvcli:/theobald/test_ws/install/py_srvcli/lib/python3.8/site-packages:/theobald/test_ws/build/py_pubsub:/theobald/test_ws/install/py_pubsub/lib/python3.8/site-packages:/theobald/test_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/theobald/test_ws/install/turtlesim/lib/python3.8/site-packages:/theobald/test_ws/build/python_parameters:/theobald/test_ws/install/python_parameters/lib/python3.8/site-packages:/theobald/test_ws/build/my_package:/theobald/test_ws/install/my_package/lib/python3.8/site-packages:/theobald/test_ws/install/action_tutorials_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --prefix /theobald/cdr2022/dev_ws/install/hal --editable --build-directory /theobald/cdr2022/dev_ws/build/hal/build --no-deps install_data --install-dir /theobald/cdr2022/dev_ws/install/hal

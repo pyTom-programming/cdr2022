@@ -1,0 +1,12 @@
+package.xml
+setup.cfg
+setup.py
+resource/theobald2022
+theobald2022/__init__.py
+theobald2022.egg-info/PKG-INFO
+theobald2022.egg-info/SOURCES.txt
+theobald2022.egg-info/dependency_links.txt
+theobald2022.egg-info/entry_points.txt
+theobald2022.egg-info/requires.txt
+theobald2022.egg-info/top_level.txt
+theobald2022.egg-info/zip-safe

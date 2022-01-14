@@ -1,0 +1,35 @@
+[0.049s] Invoking command in '/theobald/cdr2022/dev_ws/build/robot_interfaces': /usr/bin/cmake /theobald/cdr2022/dev_ws/src/robot_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/theobald/cdr2022/dev_ws/install/robot_interfaces
+[0.417s] -- The C compiler identification is GNU 9.3.0
+[0.887s] -- The CXX compiler identification is GNU 9.3.0
+[0.910s] -- Check for working C compiler: /usr/bin/cc
+[1.160s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.164s] -- Detecting C compiler ABI info
+[1.410s] -- Detecting C compiler ABI info - done
+[1.440s] -- Detecting C compile features
+[1.441s] -- Detecting C compile features - done
+[1.455s] -- Check for working CXX compiler: /usr/bin/c++
+[1.761s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.765s] -- Detecting CXX compiler ABI info
+[2.058s] -- Detecting CXX compiler ABI info - done
+[2.092s] -- Detecting CXX compile features
+[2.094s] -- Detecting CXX compile features - done
+[2.226s] CMake Error at CMakeLists.txt:9 (find_package):
+[2.227s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[2.227s]   has asked CMake to find a package configuration file provided by
+[2.227s]   "ament_cmake", but CMake did not find one.
+[2.228s] 
+[2.228s]   Could not find a package configuration file provided by "ament_cmake" with
+[2.229s]   any of the following names:
+[2.230s] 
+[2.231s]     ament_cmakeConfig.cmake
+[2.232s]     ament_cmake-config.cmake
+[2.232s] 
+[2.233s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[2.234s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[2.235s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[2.237s]   has been installed.
+[2.238s] 
+[2.239s] 
+[2.240s] -- Configuring incomplete, errors occurred!
+[2.242s] See also "/theobald/cdr2022/dev_ws/build/robot_interfaces/CMakeFiles/CMakeOutput.log".
+[2.246s] Invoked command in '/theobald/cdr2022/dev_ws/build/robot_interfaces' returned '1': /usr/bin/cmake /theobald/cdr2022/dev_ws/src/robot_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/theobald/cdr2022/dev_ws/install/robot_interfaces

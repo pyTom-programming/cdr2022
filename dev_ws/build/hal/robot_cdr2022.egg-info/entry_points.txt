@@ -1,0 +1,3 @@
+[console_scripts]
+hal = robot_cdr2022.hal:main
+

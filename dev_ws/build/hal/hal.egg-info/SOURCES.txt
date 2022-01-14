@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+hal/__init__.py
+hal/hal.py
+hal.egg-info/PKG-INFO
+hal.egg-info/SOURCES.txt
+hal.egg-info/dependency_links.txt
+hal.egg-info/entry_points.txt
+hal.egg-info/requires.txt
+hal.egg-info/top_level.txt
+hal.egg-info/zip-safe
+resource/hal

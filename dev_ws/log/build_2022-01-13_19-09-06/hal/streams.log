@@ -1,0 +1,18 @@
+[1.730s] Invoking command in '/theobald/cdr2022/dev_ws/build/hal': PYTHONPATH=/theobald/cdr2022/dev_ws/install/hal/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /theobald/cdr2022/dev_ws/install/hal --editable --build-directory /theobald/cdr2022/dev_ws/build/hal/build --no-deps install_data --install-dir /theobald/cdr2022/dev_ws/install/hal
+[3.036s] running develop
+[3.650s] running egg_info
+[3.650s] writing hal.egg-info/PKG-INFO
+[3.651s] writing dependency_links to hal.egg-info/dependency_links.txt
+[3.652s] writing entry points to hal.egg-info/entry_points.txt
+[3.653s] writing requirements to hal.egg-info/requires.txt
+[3.653s] writing top-level names to hal.egg-info/top_level.txt
+[3.776s] reading manifest file 'hal.egg-info/SOURCES.txt'
+[3.779s] writing manifest file 'hal.egg-info/SOURCES.txt'
+[3.943s] running build_ext
+[3.944s] Creating /theobald/cdr2022/dev_ws/install/hal/lib/python3.8/site-packages/hal.egg-link (link to .)
+[3.947s] Installing hal script to /theobald/cdr2022/dev_ws/install/hal/lib/hal
+[3.949s] 
+[3.950s] Installed /theobald/cdr2022/dev_ws/build/hal
+[3.950s] running install_data
+[3.952s] copying package.xml -> /theobald/cdr2022/dev_ws/install/hal/share/hal
+[4.068s] Invoked command in '/theobald/cdr2022/dev_ws/build/hal' returned '0': PYTHONPATH=/theobald/cdr2022/dev_ws/install/hal/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /theobald/cdr2022/dev_ws/install/hal --editable --build-directory /theobald/cdr2022/dev_ws/build/hal/build --no-deps install_data --install-dir /theobald/cdr2022/dev_ws/install/hal

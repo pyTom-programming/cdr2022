@@ -1,0 +1,208 @@
+[1.219s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[1.219s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8c78cc40>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8c78cc40>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff8c71a1f0>)
+[1.241s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.243s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/theobald/cdr2022/dev_ws'
+[1.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.295s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.296s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.296s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.297s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.297s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.297s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.298s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.298s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.300s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.300s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.300s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.300s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.300s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.302s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.302s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_cdr2022) by extensions ['ignore', 'ignore_ament_install']
+[1.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_cdr2022) by extension 'ignore'
+[1.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_cdr2022) by extension 'ignore_ament_install'
+[1.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_cdr2022) by extensions ['colcon_pkg']
+[1.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_cdr2022) by extension 'colcon_pkg'
+[1.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_cdr2022) by extensions ['colcon_meta']
+[1.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_cdr2022) by extension 'colcon_meta'
+[1.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_cdr2022) by extensions ['ros']
+[1.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_cdr2022) by extension 'ros'
+[1.312s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_cdr2022' with type 'ros.ament_python' and name 'hal'
+[1.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[1.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interfaces) by extension 'ignore'
+[1.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interfaces) by extension 'ignore_ament_install'
+[1.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interfaces) by extensions ['colcon_pkg']
+[1.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interfaces) by extension 'colcon_pkg'
+[1.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interfaces) by extensions ['colcon_meta']
+[1.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interfaces) by extension 'colcon_meta'
+[1.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interfaces) by extensions ['ros']
+[1.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interfaces) by extension 'ros'
+[1.317s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_interfaces' with type 'ros.ament_cmake' and name 'robot_interfaces'
+[1.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.318s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.318s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.318s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.318s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.397s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'cmake_args' from command line to 'None'
+[1.397s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'cmake_target' from command line to 'None'
+[1.397s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.397s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[1.398s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[1.398s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[1.398s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[1.398s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[1.398s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.398s] DEBUG:colcon.colcon_core.verb:Building package 'robot_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/theobald/cdr2022/dev_ws/build/robot_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/theobald/cdr2022/dev_ws/install/robot_interfaces', 'merge_install': False, 'path': '/theobald/cdr2022/dev_ws/src/robot_interfaces', 'symlink_install': True, 'test_result_base': None}
+[1.408s] Level 5:colcon.colcon_core.verb:set package 'hal' build argument 'cmake_args' from command line to 'None'
+[1.408s] Level 5:colcon.colcon_core.verb:set package 'hal' build argument 'cmake_target' from command line to 'None'
+[1.408s] Level 5:colcon.colcon_core.verb:set package 'hal' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.409s] Level 5:colcon.colcon_core.verb:set package 'hal' build argument 'cmake_clean_cache' from command line to 'False'
+[1.409s] Level 5:colcon.colcon_core.verb:set package 'hal' build argument 'cmake_clean_first' from command line to 'False'
+[1.409s] Level 5:colcon.colcon_core.verb:set package 'hal' build argument 'cmake_force_configure' from command line to 'False'
+[1.409s] Level 5:colcon.colcon_core.verb:set package 'hal' build argument 'ament_cmake_args' from command line to 'None'
+[1.409s] Level 5:colcon.colcon_core.verb:set package 'hal' build argument 'catkin_cmake_args' from command line to 'None'
+[1.409s] Level 5:colcon.colcon_core.verb:set package 'hal' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.410s] DEBUG:colcon.colcon_core.verb:Building package 'hal' with the following arguments: {'ament_cmake_args': None, 'build_base': '/theobald/cdr2022/dev_ws/build/hal', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/theobald/cdr2022/dev_ws/install/hal', 'merge_install': False, 'path': '/theobald/cdr2022/dev_ws/src/robot_cdr2022', 'symlink_install': True, 'test_result_base': None}
+[1.411s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.419s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.420s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/theobald/cdr2022/dev_ws/src/robot_interfaces' with build type 'ament_cmake'
+[1.421s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/theobald/cdr2022/dev_ws/src/robot_interfaces'
+[1.441s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.442s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.442s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.458s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/galactic'
+[1.514s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/theobald/cdr2022/dev_ws/build/robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/theobald/cdr2022/dev_ws/install/hal:/theobald/test_ws/install/py_srvcli:/theobald/test_ws/install/py_pubsub:/theobald/test_ws/install/python_parameters:/theobald/test_ws/install/my_package:/opt/ros/galactic /usr/bin/cmake --build /theobald/cdr2022/dev_ws/build/robot_interfaces -- -j4 -l4
+[3.210s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/theobald/cdr2022/dev_ws/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/theobald/cdr2022/dev_ws/install/hal:/theobald/test_ws/install/py_srvcli:/theobald/test_ws/install/py_pubsub:/theobald/test_ws/install/python_parameters:/theobald/test_ws/install/my_package:/opt/ros/galactic /usr/bin/cmake --build /theobald/cdr2022/dev_ws/build/robot_interfaces -- -j4 -l4
+[3.910s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/theobald/cdr2022/dev_ws/build/robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/theobald/cdr2022/dev_ws/install/hal:/theobald/test_ws/install/py_srvcli:/theobald/test_ws/install/py_pubsub:/theobald/test_ws/install/python_parameters:/theobald/test_ws/install/my_package:/opt/ros/galactic /usr/bin/cmake --install /theobald/cdr2022/dev_ws/build/robot_interfaces
+[4.356s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_interfaces)
+[4.360s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/theobald/cdr2022/dev_ws/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/theobald/cdr2022/dev_ws/install/hal:/theobald/test_ws/install/py_srvcli:/theobald/test_ws/install/py_pubsub:/theobald/test_ws/install/python_parameters:/theobald/test_ws/install/my_package:/opt/ros/galactic /usr/bin/cmake --install /theobald/cdr2022/dev_ws/build/robot_interfaces
+[4.387s] Level 1:colcon.colcon_core.environment:checking '/theobald/cdr2022/dev_ws/install/robot_interfaces' for CMake module files
+[4.391s] Level 1:colcon.colcon_core.environment:checking '/theobald/cdr2022/dev_ws/install/robot_interfaces' for CMake config files
+[4.394s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_interfaces', 'cmake_prefix_path')
+[4.400s] INFO:colcon.colcon_core.shell:Creating environment hook '/theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/hook/cmake_prefix_path.ps1'
+[4.403s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/hook/cmake_prefix_path.dsv'
+[4.405s] INFO:colcon.colcon_core.shell:Creating environment hook '/theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/hook/cmake_prefix_path.sh'
+[4.409s] Level 1:colcon.colcon_core.environment:checking '/theobald/cdr2022/dev_ws/install/robot_interfaces/lib'
+[4.410s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_interfaces', 'ld_library_path_lib')
+[4.413s] INFO:colcon.colcon_core.shell:Creating environment hook '/theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/hook/ld_library_path_lib.ps1'
+[4.415s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/hook/ld_library_path_lib.dsv'
+[4.417s] INFO:colcon.colcon_core.shell:Creating environment hook '/theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/hook/ld_library_path_lib.sh'
+[4.419s] Level 1:colcon.colcon_core.environment:checking '/theobald/cdr2022/dev_ws/install/robot_interfaces/bin'
+[4.420s] Level 1:colcon.colcon_core.environment:checking '/theobald/cdr2022/dev_ws/install/robot_interfaces/lib/pkgconfig/robot_interfaces.pc'
+[4.420s] Level 1:colcon.colcon_core.environment:checking '/theobald/cdr2022/dev_ws/install/robot_interfaces/lib/python3.8/site-packages'
+[4.421s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_interfaces', 'pythonpath')
+[4.423s] INFO:colcon.colcon_core.shell:Creating environment hook '/theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/hook/pythonpath.ps1'
+[4.425s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/hook/pythonpath.dsv'
+[4.427s] INFO:colcon.colcon_core.shell:Creating environment hook '/theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/hook/pythonpath.sh'
+[4.432s] INFO:colcon.colcon_core.shell:Creating package script '/theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/package.ps1'
+[4.443s] INFO:colcon.colcon_core.shell:Creating package descriptor '/theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/package.dsv'
+[4.446s] INFO:colcon.colcon_core.shell:Creating package script '/theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/package.sh'
+[4.450s] INFO:colcon.colcon_core.shell:Creating package script '/theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/package.bash'
+[4.454s] INFO:colcon.colcon_core.shell:Creating package script '/theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/package.zsh'
+[4.457s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/theobald/cdr2022/dev_ws/install/robot_interfaces/share/colcon-core/packages/robot_interfaces)
+[5.060s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_interfaces)
+[5.067s] Level 1:colcon.colcon_core.environment:checking '/theobald/cdr2022/dev_ws/install/robot_interfaces' for CMake module files
+[5.073s] Level 1:colcon.colcon_core.environment:checking '/theobald/cdr2022/dev_ws/install/robot_interfaces' for CMake config files
+[5.078s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_interfaces', 'cmake_prefix_path')
+[5.085s] INFO:colcon.colcon_core.shell:Creating environment hook '/theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/hook/cmake_prefix_path.ps1'
+[5.089s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/hook/cmake_prefix_path.dsv'
+[5.091s] INFO:colcon.colcon_core.shell:Creating environment hook '/theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/hook/cmake_prefix_path.sh'
+[5.095s] Level 1:colcon.colcon_core.environment:checking '/theobald/cdr2022/dev_ws/install/robot_interfaces/lib'
+[5.096s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_interfaces', 'ld_library_path_lib')
+[5.099s] INFO:colcon.colcon_core.shell:Creating environment hook '/theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/hook/ld_library_path_lib.ps1'
+[5.101s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/hook/ld_library_path_lib.dsv'
+[5.104s] INFO:colcon.colcon_core.shell:Creating environment hook '/theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/hook/ld_library_path_lib.sh'
+[5.108s] Level 1:colcon.colcon_core.environment:checking '/theobald/cdr2022/dev_ws/install/robot_interfaces/bin'
+[5.108s] Level 1:colcon.colcon_core.environment:checking '/theobald/cdr2022/dev_ws/install/robot_interfaces/lib/pkgconfig/robot_interfaces.pc'
+[5.109s] Level 1:colcon.colcon_core.environment:checking '/theobald/cdr2022/dev_ws/install/robot_interfaces/lib/python3.8/site-packages'
+[5.110s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_interfaces', 'pythonpath')
+[5.113s] INFO:colcon.colcon_core.shell:Creating environment hook '/theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/hook/pythonpath.ps1'
+[5.117s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/hook/pythonpath.dsv'
+[5.122s] INFO:colcon.colcon_core.shell:Creating environment hook '/theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/hook/pythonpath.sh'
+[5.128s] INFO:colcon.colcon_core.shell:Creating package script '/theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/package.ps1'
+[5.132s] INFO:colcon.colcon_core.shell:Creating package descriptor '/theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/package.dsv'
+[5.136s] INFO:colcon.colcon_core.shell:Creating package script '/theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/package.sh'
+[5.139s] INFO:colcon.colcon_core.shell:Creating package script '/theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/package.bash'
+[5.141s] INFO:colcon.colcon_core.shell:Creating package script '/theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/package.zsh'
+[5.144s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/theobald/cdr2022/dev_ws/install/robot_interfaces/share/colcon-core/packages/robot_interfaces)
+[5.147s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/theobald/cdr2022/dev_ws/src/robot_cdr2022' with build type 'ament_python'
+[5.148s] Level 1:colcon.colcon_core.shell:create_environment_hook('hal', 'ament_prefix_path')
+[5.151s] INFO:colcon.colcon_core.shell:Creating environment hook '/theobald/cdr2022/dev_ws/install/hal/share/hal/hook/ament_prefix_path.ps1'
+[5.157s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/theobald/cdr2022/dev_ws/install/hal/share/hal/hook/ament_prefix_path.dsv'
+[5.159s] INFO:colcon.colcon_core.shell:Creating environment hook '/theobald/cdr2022/dev_ws/install/hal/share/hal/hook/ament_prefix_path.sh'
+[5.169s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.169s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.216s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/galactic'
+[7.310s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'hal' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[7.312s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'hal' doesn't explicitly install the 'package.xml' file (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[7.314s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/theobald/cdr2022/dev_ws/src/robot_cdr2022'
+[7.320s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.321s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.354s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/galactic'
+[7.448s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/theobald/cdr2022/dev_ws/build/hal': PYTHONPATH=/theobald/cdr2022/dev_ws/install/hal/lib/python3.8/site-packages:/theobald/cdr2022/dev_ws/install/robot_interfaces/lib/python3.8/site-packages:/theobald/cdr2022/dev_ws/build/hal:/theobald/cdr2022/dev_ws/install/hal/lib/python3.8/site-packages:/theobald/test_ws/build/py_srvcli:/theobald/test_ws/install/py_srvcli/lib/python3.8/site-packages:/theobald/test_ws/build/py_pubsub:/theobald/test_ws/install/py_pubsub/lib/python3.8/site-packages:/theobald/test_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/theobald/test_ws/install/turtlesim/lib/python3.8/site-packages:/theobald/test_ws/build/python_parameters:/theobald/test_ws/install/python_parameters/lib/python3.8/site-packages:/theobald/test_ws/build/my_package:/theobald/test_ws/install/my_package/lib/python3.8/site-packages:/theobald/test_ws/install/action_tutorials_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --prefix /theobald/cdr2022/dev_ws/install/hal --editable --build-directory /theobald/cdr2022/dev_ws/build/hal/build --no-deps install_data --install-dir /theobald/cdr2022/dev_ws/install/hal
+[11.322s] Level 1:colcon.colcon_core.shell:create_environment_hook('hal', 'pythonpath_develop')
+[11.325s] INFO:colcon.colcon_core.shell:Creating environment hook '/theobald/cdr2022/dev_ws/build/hal/share/hal/hook/pythonpath_develop.ps1'
+[11.327s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/theobald/cdr2022/dev_ws/build/hal' returned '0': PYTHONPATH=/theobald/cdr2022/dev_ws/install/hal/lib/python3.8/site-packages:/theobald/cdr2022/dev_ws/install/robot_interfaces/lib/python3.8/site-packages:/theobald/cdr2022/dev_ws/build/hal:/theobald/cdr2022/dev_ws/install/hal/lib/python3.8/site-packages:/theobald/test_ws/build/py_srvcli:/theobald/test_ws/install/py_srvcli/lib/python3.8/site-packages:/theobald/test_ws/build/py_pubsub:/theobald/test_ws/install/py_pubsub/lib/python3.8/site-packages:/theobald/test_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/theobald/test_ws/install/turtlesim/lib/python3.8/site-packages:/theobald/test_ws/build/python_parameters:/theobald/test_ws/install/python_parameters/lib/python3.8/site-packages:/theobald/test_ws/build/my_package:/theobald/test_ws/install/my_package/lib/python3.8/site-packages:/theobald/test_ws/install/action_tutorials_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --prefix /theobald/cdr2022/dev_ws/install/hal --editable --build-directory /theobald/cdr2022/dev_ws/build/hal/build --no-deps install_data --install-dir /theobald/cdr2022/dev_ws/install/hal
+[11.328s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/theobald/cdr2022/dev_ws/build/hal/share/hal/hook/pythonpath_develop.dsv'
+[11.330s] INFO:colcon.colcon_core.shell:Creating environment hook '/theobald/cdr2022/dev_ws/build/hal/share/hal/hook/pythonpath_develop.sh'
+[11.335s] Level 1:colcon.colcon_core.environment:checking '/theobald/cdr2022/dev_ws/install/hal' for CMake module files
+[11.337s] Level 1:colcon.colcon_core.environment:checking '/theobald/cdr2022/dev_ws/install/hal' for CMake config files
+[11.339s] Level 1:colcon.colcon_core.environment:checking '/theobald/cdr2022/dev_ws/install/hal/lib'
+[11.340s] Level 1:colcon.colcon_core.environment:checking '/theobald/cdr2022/dev_ws/install/hal/bin'
+[11.340s] Level 1:colcon.colcon_core.environment:checking '/theobald/cdr2022/dev_ws/install/hal/lib/pkgconfig/hal.pc'
+[11.341s] Level 1:colcon.colcon_core.environment:checking '/theobald/cdr2022/dev_ws/install/hal/lib/python3.8/site-packages'
+[11.341s] Level 1:colcon.colcon_core.shell:create_environment_hook('hal', 'pythonpath')
+[11.343s] INFO:colcon.colcon_core.shell:Creating environment hook '/theobald/cdr2022/dev_ws/install/hal/share/hal/hook/pythonpath.ps1'
+[11.345s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/theobald/cdr2022/dev_ws/install/hal/share/hal/hook/pythonpath.dsv'
+[11.347s] INFO:colcon.colcon_core.shell:Creating environment hook '/theobald/cdr2022/dev_ws/install/hal/share/hal/hook/pythonpath.sh'
+[11.353s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hal)
+[11.357s] INFO:colcon.colcon_core.shell:Creating package script '/theobald/cdr2022/dev_ws/install/hal/share/hal/package.ps1'
+[11.359s] INFO:colcon.colcon_core.shell:Creating package descriptor '/theobald/cdr2022/dev_ws/install/hal/share/hal/package.dsv'
+[11.362s] INFO:colcon.colcon_core.shell:Creating package script '/theobald/cdr2022/dev_ws/install/hal/share/hal/package.sh'
+[11.364s] INFO:colcon.colcon_core.shell:Creating package script '/theobald/cdr2022/dev_ws/install/hal/share/hal/package.bash'
+[11.366s] INFO:colcon.colcon_core.shell:Creating package script '/theobald/cdr2022/dev_ws/install/hal/share/hal/package.zsh'
+[11.368s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/theobald/cdr2022/dev_ws/install/hal/share/colcon-core/packages/hal)
+[11.370s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.371s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.371s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[11.372s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.410s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.412s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.412s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.525s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.529s] INFO:colcon.colcon_core.shell:Creating prefix script '/theobald/cdr2022/dev_ws/install/local_setup.ps1'
+[11.533s] INFO:colcon.colcon_core.shell:Creating prefix util module '/theobald/cdr2022/dev_ws/install/_local_setup_util_ps1.py'
+[11.538s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/theobald/cdr2022/dev_ws/install/setup.ps1'
+[11.552s] INFO:colcon.colcon_core.shell:Creating prefix script '/theobald/cdr2022/dev_ws/install/local_setup.sh'
+[11.556s] INFO:colcon.colcon_core.shell:Creating prefix util module '/theobald/cdr2022/dev_ws/install/_local_setup_util_sh.py'
+[11.559s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/theobald/cdr2022/dev_ws/install/setup.sh'
+[11.579s] INFO:colcon.colcon_core.shell:Creating prefix script '/theobald/cdr2022/dev_ws/install/local_setup.bash'
+[11.583s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/theobald/cdr2022/dev_ws/install/setup.bash'
+[11.599s] INFO:colcon.colcon_core.shell:Creating prefix script '/theobald/cdr2022/dev_ws/install/local_setup.zsh'
+[11.604s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/theobald/cdr2022/dev_ws/install/setup.zsh'

@@ -1,0 +1,98 @@
+[0.000000] (-) TimerEvent: {}
+[0.001164] (robot_interfaces) JobQueued: {'identifier': 'robot_interfaces', 'dependencies': OrderedDict()}
+[0.002273] (robot_interfaces) JobStarted: {'identifier': 'robot_interfaces'}
+[0.058749] (robot_interfaces) JobProgress: {'identifier': 'robot_interfaces', 'progress': 'cmake'}
+[0.061354] (robot_interfaces) JobProgress: {'identifier': 'robot_interfaces', 'progress': 'build'}
+[0.063429] (robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/theobald/cdr2022/dev_ws/build/robot_interfaces', '--', '-j4', '-l4'], 'cwd': '/theobald/cdr2022/dev_ws/build/robot_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'ubuntu'), ('SSH_AGENT_PID', '3156'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/theobald/cdr2022/dev_ws/install/robot_interfaces/lib:/theobald/test_ws/install/tutorial_interfaces/lib:/theobald/test_ws/install/turtlesim/lib:/theobald/test_ws/install/action_tutorials_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/aarch64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/ubuntu'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('MANAGERPID', '3030'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '11087'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/theobald/cdr2022/dev_ws/install:/theobald/test_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '9:67968'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/theobald:@/tmp/.ICE-unix/3269,unix/theobald:/tmp/.ICE-unix/3269'), ('GDM_LANG', 'en'), ('INVOCATION_ID', '90b5a0ad48db4243b6e9d78023d9f905'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/ubuntu/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/ubuntu'), ('AMENT_PREFIX_PATH', '/theobald/cdr2022/dev_ws/install/robot_interfaces:/theobald/test_ws/install/py_srvcli:/theobald/test_ws/install/py_pubsub:/theobald/test_ws/install/tutorial_interfaces:/theobald/test_ws/install/turtlesim:/theobald/test_ws/install/python_parameters:/theobald/test_ws/install/my_package:/theobald/test_ws/install/action_tutorials_interfaces:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:a1fd53ac-d02b-4578-975d-4e66fa38eaaa'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/theobald/cdr2022/dev_ws/build/robot_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/theobald/cdr2022/dev_ws/install/robot_interfaces/lib/python3.8/site-packages:/theobald/test_ws/build/py_srvcli:/theobald/test_ws/install/py_srvcli/lib/python3.8/site-packages:/theobald/test_ws/build/py_pubsub:/theobald/test_ws/install/py_pubsub/lib/python3.8/site-packages:/theobald/test_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/theobald/test_ws/install/turtlesim/lib/python3.8/site-packages:/theobald/test_ws/build/python_parameters:/theobald/test_ws/install/python_parameters/lib/python3.8/site-packages:/theobald/test_ws/build/my_package:/theobald/test_ws/install/my_package/lib/python3.8/site-packages:/theobald/test_ws/install/action_tutorials_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/theobald/cdr2022/dev_ws/install/robot_interfaces:/theobald/test_ws/install/tutorial_interfaces:/theobald/test_ws/install/turtlesim:/theobald/test_ws/install/action_tutorials_interfaces:/theobald/test_ws/install/py_srvcli:/theobald/test_ws/install/py_pubsub:/theobald/test_ws/install/python_parameters:/theobald/test_ws/install/my_package:/opt/ros/galactic')]), 'shell': False}
+[0.099060] (-) TimerEvent: {}
+[0.187481] (robot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.4 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[0.199203] (-) TimerEvent: {}
+[0.300010] (-) TimerEvent: {}
+[0.334731] (robot_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.336921] (robot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.400278] (-) TimerEvent: {}
+[0.502244] (-) TimerEvent: {}
+[0.603174] (-) TimerEvent: {}
+[0.647253] (robot_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.681855] (robot_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.6 (/opt/ros/galactic/share/ament_lint_auto/cmake)\n'}
+[0.703327] (-) TimerEvent: {}
+[0.804373] (-) TimerEvent: {}
+[0.907991] (-) TimerEvent: {}
+[1.013578] (-) TimerEvent: {}
+[1.077413] (robot_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)\n'}
+[1.087493] (robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.098001] (robot_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[1.113752] (-) TimerEvent: {}
+[1.214445] (-) TimerEvent: {}
+[1.315148] (-) TimerEvent: {}
+[1.415807] (-) TimerEvent: {}
+[1.516547] (-) TimerEvent: {}
+[1.617249] (-) TimerEvent: {}
+[1.717980] (-) TimerEvent: {}
+[1.818674] (-) TimerEvent: {}
+[1.919373] (-) TimerEvent: {}
+[2.020054] (-) TimerEvent: {}
+[2.037927] (robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.120223] (-) TimerEvent: {}
+[2.220857] (-) TimerEvent: {}
+[2.258233] (robot_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[2.321027] (-) TimerEvent: {}
+[2.421685] (-) TimerEvent: {}
+[2.522343] (-) TimerEvent: {}
+[2.623183] (-) TimerEvent: {}
+[2.724256] (-) TimerEvent: {}
+[2.824969] (-) TimerEvent: {}
+[2.925878] (-) TimerEvent: {}
+[3.026777] (robot_interfaces) StderrLine: {'line': b'CMake Error at /opt/ros/galactic/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):\n'}
+[3.028141] (-) TimerEvent: {}
+[3.028720] (robot_interfaces) StderrLine: {'line': b'  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name\n'}
+[3.029434] (robot_interfaces) StderrLine: {'line': b'  robot_interfaces --arguments-file\n'}
+[3.029864] (robot_interfaces) StderrLine: {'line': b'  /theobald/cdr2022/dev_ws/build/robot_interfaces/rosidl_adapter__arguments__robot_interfaces.json\n'}
+[3.030172] (robot_interfaces) StderrLine: {'line': b'  --output-dir\n'}
+[3.030431] (robot_interfaces) StderrLine: {'line': b'  /theobald/cdr2022/dev_ws/build/robot_interfaces/rosidl_adapter/robot_interfaces\n'}
+[3.030718] (robot_interfaces) StderrLine: {'line': b'  --output-file\n'}
+[3.030974] (robot_interfaces) StderrLine: {'line': b'  /theobald/cdr2022/dev_ws/build/robot_interfaces/rosidl_adapter/robot_interfaces.idls)\n'}
+[3.031245] (robot_interfaces) StderrLine: {'line': b'  returned error code 1:\n'}
+[3.031496] (robot_interfaces) StderrLine: {'line': b'\n'}
+[3.031755] (robot_interfaces) StderrLine: {'line': b"  Error processing 'int8 movementType' of 'robot_interfaces/Movement_Goal':\n"}
+[3.032599] (robot_interfaces) StderrLine: {'line': b"  ''movementType' is an invalid field name.  It should have the pattern\n"}
+[3.033120] (robot_interfaces) StderrLine: {'line': b"  '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$''\n"}
+[3.033530] (robot_interfaces) StderrLine: {'line': b'\n'}
+[3.033955] (robot_interfaces) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[3.034400] (robot_interfaces) StderrLine: {'line': b'\n'}
+[3.034690] (robot_interfaces) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main\n'}
+[3.034954] (robot_interfaces) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[3.035206] (robot_interfaces) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 87, in _run_code\n'}
+[3.035647] (robot_interfaces) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[3.036154] (robot_interfaces) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[3.036576] (robot_interfaces) StderrLine: {'line': b'      sys.exit(main())\n'}
+[3.036847] (robot_interfaces) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[3.037104] (robot_interfaces) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[3.037776] (robot_interfaces) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 29, in convert_to_idl\n'}
+[3.038324] (robot_interfaces) StderrLine: {'line': b'      return convert_action_to_idl(\n'}
+[3.038696] (robot_interfaces) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/action/__init__.py", line 28, in convert_action_to_idl\n'}
+[3.039053] (robot_interfaces) StderrLine: {'line': b'      action = parse_action_string(package_name, input_file.stem, content)\n'}
+[3.039540] (robot_interfaces) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 892, in parse_action_string\n'}
+[3.039958] (robot_interfaces) StderrLine: {'line': b'      goal_message = parse_message_string(\n'}
+[3.040402] (robot_interfaces) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 515, in parse_message_string\n'}
+[3.040865] (robot_interfaces) StderrLine: {'line': b'      fields.append(Field(\n'}
+[3.041361] (robot_interfaces) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 353, in __init__\n'}
+[3.041912] (robot_interfaces) StderrLine: {'line': b'      raise NameError(\n'}
+[3.042410] (robot_interfaces) StderrLine: {'line': b'\n'}
+[3.042888] (robot_interfaces) StderrLine: {'line': b"  NameError: 'movementType' is an invalid field name.  It should have the\n"}
+[3.043354] (robot_interfaces) StderrLine: {'line': b"  pattern '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$'\n"}
+[3.043787] (robot_interfaces) StderrLine: {'line': b'\n'}
+[3.044405] (robot_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.044999] (robot_interfaces) StderrLine: {'line': b'  /opt/ros/galactic/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[3.045514] (robot_interfaces) StderrLine: {'line': b'  CMakeLists.txt:27 (rosidl_generate_interfaces)\n'}
+[3.046498] (robot_interfaces) StderrLine: {'line': b'\n'}
+[3.047994] (robot_interfaces) StderrLine: {'line': b'\n'}
+[3.049321] (robot_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.050809] (robot_interfaces) StdoutLine: {'line': b'See also "/theobald/cdr2022/dev_ws/build/robot_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[3.058669] (robot_interfaces) StderrLine: {'line': b'make: *** [Makefile:748: cmake_check_build_system] Error 1\n'}
+[3.063127] (robot_interfaces) CommandEnded: {'returncode': 2}
+[3.128369] (-) TimerEvent: {}
+[3.229824] (-) TimerEvent: {}
+[3.330426] (-) TimerEvent: {}
+[3.411564] (robot_interfaces) JobEnded: {'identifier': 'robot_interfaces', 'rc': 2}
+[3.414761] (-) EventReactorShutdown: {}

@@ -1,0 +1,3 @@
+[console_scripts]
+hal = theobald2022.hal.hal:main
+

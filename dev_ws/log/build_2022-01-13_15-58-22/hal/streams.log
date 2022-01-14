@@ -1,0 +1,24 @@
+[1.589s] Invoking command in '/theobald/cdr2022/dev_ws/build/hal': PYTHONPATH=/theobald/cdr2022/dev_ws/install/hal/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /theobald/cdr2022/dev_ws/install/hal --editable --build-directory /theobald/cdr2022/dev_ws/build/hal/build --no-deps install_data --install-dir /theobald/cdr2022/dev_ws/install/hal
+[4.056s] running develop
+[5.415s] running egg_info
+[5.415s] creating hal.egg-info
+[5.416s] writing hal.egg-info/PKG-INFO
+[5.416s] writing dependency_links to hal.egg-info/dependency_links.txt
+[5.417s] writing entry points to hal.egg-info/entry_points.txt
+[5.418s] writing requirements to hal.egg-info/requires.txt
+[5.418s] writing top-level names to hal.egg-info/top_level.txt
+[5.429s] writing manifest file 'hal.egg-info/SOURCES.txt'
+[5.581s] reading manifest file 'hal.egg-info/SOURCES.txt'
+[5.589s] writing manifest file 'hal.egg-info/SOURCES.txt'
+[5.845s] running build_ext
+[5.849s] Creating /theobald/cdr2022/dev_ws/install/hal/lib/python3.8/site-packages/site.py
+[5.858s] Creating /theobald/cdr2022/dev_ws/install/hal/lib/python3.8/site-packages/hal.egg-link (link to .)
+[5.864s] 
+[5.865s] Installed /theobald/cdr2022/dev_ws/build/hal
+[5.866s] running install_data
+[5.867s] creating /theobald/cdr2022/dev_ws/install/hal/share/ament_index
+[5.868s] creating /theobald/cdr2022/dev_ws/install/hal/share/ament_index/resource_index
+[5.869s] creating /theobald/cdr2022/dev_ws/install/hal/share/ament_index/resource_index/packages
+[5.870s] copying resource/hal -> /theobald/cdr2022/dev_ws/install/hal/share/ament_index/resource_index/packages
+[5.872s] copying package.xml -> /theobald/cdr2022/dev_ws/install/hal/share/hal
+[6.042s] Invoked command in '/theobald/cdr2022/dev_ws/build/hal' returned '0': PYTHONPATH=/theobald/cdr2022/dev_ws/install/hal/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /theobald/cdr2022/dev_ws/install/hal --editable --build-directory /theobald/cdr2022/dev_ws/build/hal/build --no-deps install_data --install-dir /theobald/cdr2022/dev_ws/install/hal

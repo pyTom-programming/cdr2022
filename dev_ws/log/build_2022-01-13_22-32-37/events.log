@@ -1,0 +1,246 @@
+[0.000000] (-) TimerEvent: {}
+[0.000913] (robot_interfaces) JobQueued: {'identifier': 'robot_interfaces', 'dependencies': OrderedDict()}
+[0.001362] (hal) JobQueued: {'identifier': 'hal', 'dependencies': OrderedDict([('robot_interfaces', '/theobald/cdr2022/dev_ws/install/robot_interfaces')])}
+[0.002085] (robot_interfaces) JobStarted: {'identifier': 'robot_interfaces'}
+[0.071620] (robot_interfaces) JobProgress: {'identifier': 'robot_interfaces', 'progress': 'cmake'}
+[0.075937] (robot_interfaces) JobProgress: {'identifier': 'robot_interfaces', 'progress': 'build'}
+[0.078005] (robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/theobald/cdr2022/dev_ws/build/robot_interfaces', '--', '-j4', '-l4'], 'cwd': '/theobald/cdr2022/dev_ws/build/robot_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'ubuntu'), ('SSH_AGENT_PID', '3155'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/theobald/cdr2022/dev_ws/install/robot_interfaces/lib:/theobald/test_ws/install/tutorial_interfaces/lib:/theobald/test_ws/install/turtlesim/lib:/theobald/test_ws/install/action_tutorials_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/aarch64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/theobald/cdr2022'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('MANAGERPID', '3029'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '10736'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/theobald/cdr2022/dev_ws/install:/theobald/test_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '9:68452'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/theobald:@/tmp/.ICE-unix/3268,unix/theobald:/tmp/.ICE-unix/3268'), ('GDM_LANG', 'en'), ('INVOCATION_ID', '686d224c8e274d16a5a8937a89e5a222'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/ubuntu/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/ubuntu'), ('AMENT_PREFIX_PATH', '/theobald/cdr2022/dev_ws/install/hal:/theobald/cdr2022/dev_ws/install/robot_interfaces:/theobald/test_ws/install/py_srvcli:/theobald/test_ws/install/py_pubsub:/theobald/test_ws/install/tutorial_interfaces:/theobald/test_ws/install/turtlesim:/theobald/test_ws/install/python_parameters:/theobald/test_ws/install/my_package:/theobald/test_ws/install/action_tutorials_interfaces:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:99706734-f572-44b9-8903-a26a40a71189'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/theobald/cdr2022/dev_ws/build/robot_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/theobald/cdr2022/dev_ws/build/hal:/theobald/cdr2022/dev_ws/install/hal/lib/python3.8/site-packages:/theobald/cdr2022/dev_ws/install/robot_interfaces/lib/python3.8/site-packages:/theobald/test_ws/build/py_srvcli:/theobald/test_ws/install/py_srvcli/lib/python3.8/site-packages:/theobald/test_ws/build/py_pubsub:/theobald/test_ws/install/py_pubsub/lib/python3.8/site-packages:/theobald/test_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/theobald/test_ws/install/turtlesim/lib/python3.8/site-packages:/theobald/test_ws/build/python_parameters:/theobald/test_ws/install/python_parameters/lib/python3.8/site-packages:/theobald/test_ws/build/my_package:/theobald/test_ws/install/my_package/lib/python3.8/site-packages:/theobald/test_ws/install/action_tutorials_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/theobald/cdr2022/dev_ws/install/robot_interfaces:/theobald/test_ws/install/tutorial_interfaces:/theobald/test_ws/install/turtlesim:/theobald/test_ws/install/action_tutorials_interfaces:/theobald/cdr2022/dev_ws/install/hal:/theobald/test_ws/install/py_srvcli:/theobald/test_ws/install/py_pubsub:/theobald/test_ws/install/python_parameters:/theobald/test_ws/install/my_package:/opt/ros/galactic')]), 'shell': False}
+[0.100210] (-) TimerEvent: {}
+[0.201667] (-) TimerEvent: {}
+[0.302421] (-) TimerEvent: {}
+[0.403294] (-) TimerEvent: {}
+[0.405779] (robot_interfaces) StdoutLine: {'line': b'[  2%] Built target robot_interfaces__cpp\n'}
+[0.416845] (robot_interfaces) StdoutLine: {'line': b'[ 12%] Built target robot_interfaces__rosidl_generator_c\n'}
+[0.503511] (-) TimerEvent: {}
+[0.577676] (robot_interfaces) StdoutLine: {'line': b'[ 23%] Built target robot_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.589095] (robot_interfaces) StdoutLine: {'line': b'[ 33%] Built target robot_interfaces__rosidl_typesupport_c\n'}
+[0.593534] (robot_interfaces) StdoutLine: {'line': b'[ 43%] Built target robot_interfaces__rosidl_typesupport_cpp\n'}
+[0.603723] (-) TimerEvent: {}
+[0.632653] (robot_interfaces) StdoutLine: {'line': b'[ 53%] Built target robot_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.703992] (-) TimerEvent: {}
+[0.751055] (robot_interfaces) StdoutLine: {'line': b'[ 64%] Built target robot_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.804220] (-) TimerEvent: {}
+[0.813070] (robot_interfaces) StdoutLine: {'line': b'[ 74%] Built target robot_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.905076] (-) TimerEvent: {}
+[0.939350] (robot_interfaces) StdoutLine: {'line': b'[ 74%] Built target robot_interfaces\n'}
+[1.005219] (-) TimerEvent: {}
+[1.105653] (robot_interfaces) StdoutLine: {'line': b'[ 76%] Built target robot_interfaces__py\n'}
+[1.106958] (-) TimerEvent: {}
+[1.207959] (-) TimerEvent: {}
+[1.262813] (robot_interfaces) StdoutLine: {'line': b'[ 84%] Built target robot_interfaces__python\n'}
+[1.308257] (-) TimerEvent: {}
+[1.410005] (-) TimerEvent: {}
+[1.435813] (robot_interfaces) StdoutLine: {'line': b'[ 89%] Built target robot_interfaces__rosidl_typesupport_c__pyext\n'}
+[1.452999] (robot_interfaces) StdoutLine: {'line': b'[ 97%] Built target robot_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[1.455646] (robot_interfaces) StdoutLine: {'line': b'[100%] Built target robot_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.510206] (-) TimerEvent: {}
+[1.519393] (robot_interfaces) CommandEnded: {'returncode': 0}
+[1.610419] (-) TimerEvent: {}
+[1.711261] (-) TimerEvent: {}
+[1.812018] (-) TimerEvent: {}
+[1.912850] (-) TimerEvent: {}
+[1.928316] (robot_interfaces) JobProgress: {'identifier': 'robot_interfaces', 'progress': 'install'}
+[1.970623] (robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/theobald/cdr2022/dev_ws/build/robot_interfaces'], 'cwd': '/theobald/cdr2022/dev_ws/build/robot_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'ubuntu'), ('SSH_AGENT_PID', '3155'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/theobald/cdr2022/dev_ws/install/robot_interfaces/lib:/theobald/test_ws/install/tutorial_interfaces/lib:/theobald/test_ws/install/turtlesim/lib:/theobald/test_ws/install/action_tutorials_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/aarch64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/theobald/cdr2022'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('MANAGERPID', '3029'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '10736'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/theobald/cdr2022/dev_ws/install:/theobald/test_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '9:68452'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/theobald:@/tmp/.ICE-unix/3268,unix/theobald:/tmp/.ICE-unix/3268'), ('GDM_LANG', 'en'), ('INVOCATION_ID', '686d224c8e274d16a5a8937a89e5a222'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/ubuntu/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/ubuntu'), ('AMENT_PREFIX_PATH', '/theobald/cdr2022/dev_ws/install/hal:/theobald/cdr2022/dev_ws/install/robot_interfaces:/theobald/test_ws/install/py_srvcli:/theobald/test_ws/install/py_pubsub:/theobald/test_ws/install/tutorial_interfaces:/theobald/test_ws/install/turtlesim:/theobald/test_ws/install/python_parameters:/theobald/test_ws/install/my_package:/theobald/test_ws/install/action_tutorials_interfaces:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:99706734-f572-44b9-8903-a26a40a71189'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/theobald/cdr2022/dev_ws/build/robot_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/theobald/cdr2022/dev_ws/build/hal:/theobald/cdr2022/dev_ws/install/hal/lib/python3.8/site-packages:/theobald/cdr2022/dev_ws/install/robot_interfaces/lib/python3.8/site-packages:/theobald/test_ws/build/py_srvcli:/theobald/test_ws/install/py_srvcli/lib/python3.8/site-packages:/theobald/test_ws/build/py_pubsub:/theobald/test_ws/install/py_pubsub/lib/python3.8/site-packages:/theobald/test_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/theobald/test_ws/install/turtlesim/lib/python3.8/site-packages:/theobald/test_ws/build/python_parameters:/theobald/test_ws/install/python_parameters/lib/python3.8/site-packages:/theobald/test_ws/build/my_package:/theobald/test_ws/install/my_package/lib/python3.8/site-packages:/theobald/test_ws/install/action_tutorials_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/theobald/cdr2022/dev_ws/install/robot_interfaces:/theobald/test_ws/install/tutorial_interfaces:/theobald/test_ws/install/turtlesim:/theobald/test_ws/install/action_tutorials_interfaces:/theobald/cdr2022/dev_ws/install/hal:/theobald/test_ws/install/py_srvcli:/theobald/test_ws/install/py_pubsub:/theobald/test_ws/install/python_parameters:/theobald/test_ws/install/my_package:/opt/ros/galactic')]), 'shell': False}
+[2.013015] (robot_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.013750] (-) TimerEvent: {}
+[2.015651] (robot_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.017379] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/robot_interfaces\n'}
+[2.021951] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/include/robot_interfaces/action/detail/movement__functions.h\n'}
+[2.022959] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/include/robot_interfaces/action/detail/movement__struct.h\n'}
+[2.024241] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/include/robot_interfaces/action/detail/movement__type_support.h\n'}
+[2.025475] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/include/robot_interfaces/action/movement.h\n'}
+[2.026586] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/position__functions.h\n'}
+[2.027798] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/position__struct.h\n'}
+[2.028994] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/position__type_support.h\n'}
+[2.030045] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/include/robot_interfaces/msg/position.h\n'}
+[2.031171] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/include/robot_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.032727] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/environment/library_path.sh\n'}
+[2.034079] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/environment/library_path.dsv\n'}
+[2.037759] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/include/robot_interfaces/action/detail/movement__rosidl_typesupport_fastrtps_c.h\n'}
+[2.038779] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/position__rosidl_typesupport_fastrtps_c.h\n'}
+[2.040038] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/include/robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.042763] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[2.048844] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/include/robot_interfaces/action/detail/movement__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.050424] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/position__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.051445] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/include/robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.053659] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.056647] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/include/robot_interfaces/action/detail/movement__rosidl_typesupport_introspection_c.h\n'}
+[2.057776] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/position__rosidl_typesupport_introspection_c.h\n'}
+[2.058943] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/include/robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.062026] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/include/robot_interfaces/action/detail/movement__builder.hpp\n'}
+[2.063074] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/include/robot_interfaces/action/detail/movement__struct.hpp\n'}
+[2.064321] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/include/robot_interfaces/action/detail/movement__traits.hpp\n'}
+[2.065578] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/include/robot_interfaces/action/movement.hpp\n'}
+[2.066700] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/position__builder.hpp\n'}
+[2.067917] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/position__struct.hpp\n'}
+[2.069087] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/position__traits.hpp\n'}
+[2.070178] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/include/robot_interfaces/msg/position.hpp\n'}
+[2.073151] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/include/robot_interfaces/action/detail/movement__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.074275] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/position__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.075730] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/environment/pythonpath.sh\n'}
+[2.077112] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/environment/pythonpath.dsv\n'}
+[2.078882] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/lib/python3.8/site-packages/robot_interfaces/__init__.py\n'}
+[2.081573] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/lib/python3.8/site-packages/robot_interfaces/msg/__init__.py\n'}
+[2.082857] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/lib/python3.8/site-packages/robot_interfaces/msg/_position.py\n'}
+[2.085489] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/lib/python3.8/site-packages/robot_interfaces/action/__init__.py\n'}
+[2.086669] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/lib/python3.8/site-packages/robot_interfaces/action/_movement.py\n'}
+[2.089585] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/lib/python3.8/site-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[2.092211] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/lib/python3.8/site-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[2.094626] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/lib/python3.8/site-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[2.096924] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/lib/librobot_interfaces__python.so\n'}
+[2.098345] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/msg/Position.idl\n'}
+[2.099827] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/action/Movement.idl\n'}
+[2.101207] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/msg/Position.msg\n'}
+[2.102596] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/action/Movement.action\n'}
+[2.104217] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/share/ament_index/resource_index/package_run_dependencies/robot_interfaces\n'}
+[2.105760] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/share/ament_index/resource_index/parent_prefix_path/robot_interfaces\n'}
+[2.107200] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.sh\n'}
+[2.108633] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.dsv\n'}
+[2.110040] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/environment/path.sh\n'}
+[2.111456] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/environment/path.dsv\n'}
+[2.112824] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/local_setup.bash\n'}
+[2.113872] (-) TimerEvent: {}
+[2.114887] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/local_setup.sh\n'}
+[2.115890] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/local_setup.zsh\n'}
+[2.117229] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/local_setup.dsv\n'}
+[2.118474] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/package.dsv\n'}
+[2.161489] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/share/ament_index/resource_index/packages/robot_interfaces\n'}
+[2.163072] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[2.164594] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.166065] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.167355] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.168751] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.169911] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.171264] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.175422] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig.cmake\n'}
+[2.176050] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig-version.cmake\n'}
+[2.176525] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/package.xml\n'}
+[2.181173] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /theobald/cdr2022/dev_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_c.so\n'}
+[2.185165] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /theobald/cdr2022/dev_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[2.188688] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /theobald/cdr2022/dev_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_c.so\n'}
+[2.192491] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /theobald/cdr2022/dev_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[2.196206] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /theobald/cdr2022/dev_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_cpp.so\n'}
+[2.214120] (-) TimerEvent: {}
+[2.315203] (-) TimerEvent: {}
+[2.416359] (-) TimerEvent: {}
+[2.482159] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_generator_cExport.cmake\n'}
+[2.483359] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.486393] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.487148] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.490224] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[2.491009] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.494108] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_generator_cppExport.cmake\n'}
+[2.498359] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.499275] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.501684] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[2.503636] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /theobald/cdr2022/dev_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.516940] (robot_interfaces) CommandEnded: {'returncode': 0}
+[2.519080] (-) TimerEvent: {}
+[2.621547] (-) TimerEvent: {}
+[2.723646] (-) TimerEvent: {}
+[2.825018] (-) TimerEvent: {}
+[2.926379] (-) TimerEvent: {}
+[3.027886] (-) TimerEvent: {}
+[3.129773] (-) TimerEvent: {}
+[3.231027] (-) TimerEvent: {}
+[3.331885] (-) TimerEvent: {}
+[3.370144] (robot_interfaces) JobEnded: {'identifier': 'robot_interfaces', 'rc': 0}
+[3.377215] (hal) JobStarted: {'identifier': 'hal'}
+[3.432379] (-) TimerEvent: {}
+[3.534264] (-) TimerEvent: {}
+[3.636008] (-) TimerEvent: {}
+[3.737511] (-) TimerEvent: {}
+[3.838687] (-) TimerEvent: {}
+[3.940283] (-) TimerEvent: {}
+[4.041383] (-) TimerEvent: {}
+[4.142789] (-) TimerEvent: {}
+[4.243912] (-) TimerEvent: {}
+[4.351894] (-) TimerEvent: {}
+[4.454195] (-) TimerEvent: {}
+[4.555013] (-) TimerEvent: {}
+[4.656793] (-) TimerEvent: {}
+[4.760556] (-) TimerEvent: {}
+[4.861539] (-) TimerEvent: {}
+[4.962689] (-) TimerEvent: {}
+[5.064091] (-) TimerEvent: {}
+[5.165111] (-) TimerEvent: {}
+[5.266082] (-) TimerEvent: {}
+[5.367261] (-) TimerEvent: {}
+[5.471389] (-) TimerEvent: {}
+[5.572849] (-) TimerEvent: {}
+[5.674030] (-) TimerEvent: {}
+[5.775728] (-) TimerEvent: {}
+[5.879972] (-) TimerEvent: {}
+[5.980759] (-) TimerEvent: {}
+[6.082192] (-) TimerEvent: {}
+[6.183178] (-) TimerEvent: {}
+[6.284713] (-) TimerEvent: {}
+[6.385679] (-) TimerEvent: {}
+[6.487547] (-) TimerEvent: {}
+[6.588940] (-) TimerEvent: {}
+[6.593770] (hal) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--prefix', '/theobald/cdr2022/dev_ws/install/hal', '--editable', '--build-directory', '/theobald/cdr2022/dev_ws/build/hal/build', '--no-deps', 'install_data', '--install-dir', '/theobald/cdr2022/dev_ws/install/hal'], 'cwd': '/theobald/cdr2022/dev_ws/build/hal', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en', 'USER': 'ubuntu', 'SSH_AGENT_PID': '3155', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/theobald/cdr2022/dev_ws/install/robot_interfaces/lib:/theobald/test_ws/install/tutorial_interfaces/lib:/theobald/test_ws/install/turtlesim/lib:/theobald/test_ws/install/action_tutorials_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/aarch64-linux-gnu:/opt/ros/galactic/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/theobald/cdr2022', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'MANAGERPID': '3029', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '10736', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/theobald/cdr2022/dev_ws/install:/theobald/test_ws/install', 'ROS_DISTRO': 'galactic', 'LOGNAME': 'ubuntu', 'JOURNAL_STREAM': '9:68452', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/theobald:@/tmp/.ICE-unix/3268,unix/theobald:/tmp/.ICE-unix/3268', 'GDM_LANG': 'en', 'INVOCATION_ID': '686d224c8e274d16a5a8937a89e5a222', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/home/ubuntu/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/ubuntu', 'AMENT_PREFIX_PATH': '/theobald/cdr2022/dev_ws/install/hal:/theobald/cdr2022/dev_ws/install/robot_interfaces:/theobald/test_ws/install/py_srvcli:/theobald/test_ws/install/py_pubsub:/theobald/test_ws/install/tutorial_interfaces:/theobald/test_ws/install/turtlesim:/theobald/test_ws/install/python_parameters:/theobald/test_ws/install/my_package:/theobald/test_ws/install/action_tutorials_interfaces:/opt/ros/galactic', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:99706734-f572-44b9-8903-a26a40a71189', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/theobald/cdr2022/dev_ws/build/hal', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/theobald/cdr2022/dev_ws/install/hal/lib/python3.8/site-packages:/theobald/cdr2022/dev_ws/install/robot_interfaces/lib/python3.8/site-packages:/theobald/cdr2022/dev_ws/build/hal:/theobald/cdr2022/dev_ws/install/hal/lib/python3.8/site-packages:/theobald/test_ws/build/py_srvcli:/theobald/test_ws/install/py_srvcli/lib/python3.8/site-packages:/theobald/test_ws/build/py_pubsub:/theobald/test_ws/install/py_pubsub/lib/python3.8/site-packages:/theobald/test_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/theobald/test_ws/install/turtlesim/lib/python3.8/site-packages:/theobald/test_ws/build/python_parameters:/theobald/test_ws/install/python_parameters/lib/python3.8/site-packages:/theobald/test_ws/build/my_package:/theobald/test_ws/install/my_package/lib/python3.8/site-packages:/theobald/test_ws/install/action_tutorials_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/theobald/cdr2022/dev_ws/install/robot_interfaces:/theobald/test_ws/install/tutorial_interfaces:/theobald/test_ws/install/turtlesim:/theobald/test_ws/install/action_tutorials_interfaces'}, 'shell': False}
+[6.689190] (-) TimerEvent: {}
+[6.791485] (-) TimerEvent: {}
+[6.895495] (-) TimerEvent: {}
+[6.999452] (-) TimerEvent: {}
+[7.100518] (-) TimerEvent: {}
+[7.202875] (-) TimerEvent: {}
+[7.307467] (-) TimerEvent: {}
+[7.409136] (-) TimerEvent: {}
+[7.510279] (-) TimerEvent: {}
+[7.613436] (-) TimerEvent: {}
+[7.715829] (-) TimerEvent: {}
+[7.819522] (-) TimerEvent: {}
+[7.923473] (-) TimerEvent: {}
+[8.024742] (-) TimerEvent: {}
+[8.126213] (-) TimerEvent: {}
+[8.230654] (-) TimerEvent: {}
+[8.332163] (-) TimerEvent: {}
+[8.433373] (-) TimerEvent: {}
+[8.534146] (-) TimerEvent: {}
+[8.639445] (-) TimerEvent: {}
+[8.744185] (-) TimerEvent: {}
+[8.845098] (-) TimerEvent: {}
+[8.945781] (-) TimerEvent: {}
+[9.046669] (-) TimerEvent: {}
+[9.147695] (-) TimerEvent: {}
+[9.248877] (-) TimerEvent: {}
+[9.351070] (-) TimerEvent: {}
+[9.353138] (hal) StdoutLine: {'line': b'running develop\n'}
+[9.451322] (-) TimerEvent: {}
+[9.552144] (-) TimerEvent: {}
+[9.652999] (-) TimerEvent: {}
+[9.753789] (-) TimerEvent: {}
+[9.854551] (-) TimerEvent: {}
+[9.955695] (-) TimerEvent: {}
+[10.056793] (-) TimerEvent: {}
+[10.157511] (-) TimerEvent: {}
+[10.258514] (-) TimerEvent: {}
+[10.344386] (hal) StdoutLine: {'line': b'running egg_info\n'}
+[10.345815] (hal) StdoutLine: {'line': b'creating robot_cdr2022.egg-info\n'}
+[10.346834] (hal) StdoutLine: {'line': b'writing robot_cdr2022.egg-info/PKG-INFO\n'}
+[10.348114] (hal) StdoutLine: {'line': b'writing dependency_links to robot_cdr2022.egg-info/dependency_links.txt\n'}
+[10.349914] (hal) StdoutLine: {'line': b'writing entry points to robot_cdr2022.egg-info/entry_points.txt\n'}
+[10.350692] (hal) StdoutLine: {'line': b'writing requirements to robot_cdr2022.egg-info/requires.txt\n'}
+[10.351531] (hal) StdoutLine: {'line': b'writing top-level names to robot_cdr2022.egg-info/top_level.txt\n'}
+[10.358907] (-) TimerEvent: {}
+[10.360315] (hal) StdoutLine: {'line': b"writing manifest file 'robot_cdr2022.egg-info/SOURCES.txt'\n"}
+[10.459091] (-) TimerEvent: {}
+[10.521513] (hal) StdoutLine: {'line': b"reading manifest file 'robot_cdr2022.egg-info/SOURCES.txt'\n"}
+[10.523895] (hal) StdoutLine: {'line': b"writing manifest file 'robot_cdr2022.egg-info/SOURCES.txt'\n"}
+[10.559285] (-) TimerEvent: {}
+[10.660024] (-) TimerEvent: {}
+[10.715763] (hal) StdoutLine: {'line': b'running build_ext\n'}
+[10.717780] (hal) StdoutLine: {'line': b'Creating /theobald/cdr2022/dev_ws/install/hal/lib/python3.8/site-packages/robot-cdr2022.egg-link (link to .)\n'}
+[10.721117] (hal) StdoutLine: {'line': b'Installing hal script to /theobald/cdr2022/dev_ws/install/hal/lib/robot_cdr2022\n'}
+[10.722345] (hal) StdoutLine: {'line': b'\n'}
+[10.723014] (hal) StdoutLine: {'line': b'Installed /theobald/cdr2022/dev_ws/build/hal\n'}
+[10.723644] (hal) StdoutLine: {'line': b'running install_data\n'}
+[10.724226] (hal) StdoutLine: {'line': b'copying resource/robot_cdr2022 -> /theobald/cdr2022/dev_ws/install/hal/share/ament_index/resource_index/packages\n'}
+[10.725007] (hal) StdoutLine: {'line': b'creating /theobald/cdr2022/dev_ws/install/hal/share/robot_cdr2022\n'}
+[10.726069] (hal) StdoutLine: {'line': b'copying package.xml -> /theobald/cdr2022/dev_ws/install/hal/share/robot_cdr2022\n'}
+[10.760353] (-) TimerEvent: {}
+[10.853356] (hal) CommandEnded: {'returncode': 0}
+[10.860670] (-) TimerEvent: {}
+[10.898595] (hal) JobEnded: {'identifier': 'hal', 'rc': 0}
+[10.905543] (-) EventReactorShutdown: {}
