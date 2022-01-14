@@ -1,3 +1,4 @@
+from cgi import print_environ
 from roboclaw_3 import Roboclaw
 from math import *
 import time
@@ -21,7 +22,8 @@ class Motor():
 wheelbase = 280 #The wheelbase is the length between the two wheels
 wheelbasePerimeter = wheelbase*pi #The wheelbase perimeter is the perimeter of the circle with the wheelbase as diameter  
 theta0 = 0 #theta0 is the initial orientation of the robot
-def updatePosition(x, y):
+oldL = 0
+def updatePosition(x, y, oldL):
     #These two lines store the value in qp (quadrature pulse) of the two encoders
     enc1 = rc.ReadEncM1(address)
     enc2 = rc.ReadEncM2(address)
@@ -29,14 +31,6 @@ def updatePosition(x, y):
     #These two lines convert the values in qp of the encoders into values in millimeters
     pos1 = m1.qpToMm(enc1[1])
     pos2 = m2.qpToMm(enc2[1])
-
-    #These two lines store the value in qpps (Quadrature pulse per ssecond) of the encoders
-    encSpeed1 = rc.ReadSpeedM1(address)
-    encSpeed2 = rc.ReadSpeedM2(address)
-
-    #These two lines convert the values in qpps of the encoders into values in mm/s
-    speed1 = m1.qpToMm(encSpeed1[1])
-    speed2 = m2.qpToMm(encSpeed2[1])
 
     #This bloc of lines display the values in qp and mm of the encoders
     print("--------------")
@@ -53,29 +47,35 @@ def updatePosition(x, y):
     print("")
         
     L = (1/2) * (pos1 + pos2) #L is the mean distance in mm between the distance of the two encoders 
-    V = (1/2) * (speed1 + speed2) #L is the mean veelocity in mm/s between the distance of the two encoders 
+    deltaL = L - oldL #deltaL is the difference between the previous value of L and the current value of L
     theta = theta0 + (((pos1 - pos2) % wheelbasePerimeter) / wheelbasePerimeter) * 360 #This line calculate the orientation of the robot in degree
-    deltaX = -V*sin(radians(theta))
-    deltaY = V*cos(radians(theta))
-    x += deltaX
+    deltaX = -deltaL*sin(radians(theta)) #These two lines use formulas to calculate the difference on the x and y axis between the previous position and the current one 
+    deltaY = deltaL*cos(radians(theta)) 
+    x += deltaX #These two lines increment the differences
     y += deltaY
+    oldL = L
 
+    #This bloc of line shows the robot position and orientation
     print("x: {}".format(x))
     print("y: {}".format(y))
     print("Theta: {}".format(theta))
 
-    return x, y
+    return x, y, oldL
 
 
 
-rc = Roboclaw("/dev/ttyAMA0",38400)
-rc.Open()
-address = 0x80
+rc = Roboclaw("/dev/ttyAMA0",38400) #rc is our Roboclaw object
+rc.Open() #The serial port is opened
+address = 0x80 #The address represents the address of our Roboclaw if we want to communicate withy many Roboclaw 
 
+#m1 and m2 are the objects which represent our two motors
 m1 = Motor(wheelDiameter=60)
 m2 = Motor(wheelDiameter=60)
 
+#The x and y value are set to the origin
 x = 0
 y = 0
+
+#This loop updates the postion of the robot at each time
 while(1):
-    (x, y) = updatePosition(x, y)
+    (x, y, oldL) = updatePosition(x, y, oldL)
