@@ -10,3 +10,8 @@ theobald2022.egg-info/entry_points.txt
 theobald2022.egg-info/requires.txt
 theobald2022.egg-info/top_level.txt
 theobald2022.egg-info/zip-safe
+theobald2022/hal/hal.py
+theobald2022/hal/roboclaw_3.py
+theobald2022/hal/robot.py
+theobald2022/hal/testExtLog.py
+theobald2022/hal/testRobot.py

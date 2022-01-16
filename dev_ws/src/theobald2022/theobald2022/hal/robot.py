@@ -1,7 +1,5 @@
-from cgi import print_environ
-from roboclaw_3 import Roboclaw
+from .roboclaw_3 import Roboclaw
 from math import *
-import time
 
 class Motor():
     def __init__(self, wheelDiameter=60, encoderResolution=48, gearReduction=34.014):
@@ -19,11 +17,30 @@ class Motor():
     def mmToQp(self, mmValue): #Convert a millimeter value to a quadrature pulse. It can be length, speed or acceleration
         return mmValue / self.qpLength
 
-wheelbase = 280 #The wheelbase is the length between the two wheels
-wheelbasePerimeter = wheelbase*pi #The wheelbase perimeter is the perimeter of the circle with the wheelbase as diameter  
-theta0 = 0 #theta0 is the initial orientation of the robot
-oldL = 0
-def updatePosition(x, y, oldL):
+def initialization(_node, _m1, _m2, _wheelbase=280, _theta0=0, _x0=0, _y0=0):
+    global node, rc, address, m1, m2, wheelbase, wheelbasePerimeter, oldL, theta0, x, y
+
+    node = _node
+
+    rc = Roboclaw("/dev/ttyAMA0",38400) #rc is our Roboclaw object
+    rc.Open() #The serial port is opened
+    address = 0x80 #The address represents the address of our Roboclaw if we want to communicate withy many Roboclaw
+
+    m1 = _m1 #These two lines creates the two motor objects
+    m2 = _m2
+
+    wheelbase = _wheelbase #The wheelbase is the length between the two wheels
+    wheelbasePerimeter = wheelbase*pi #The wheelbase perimeter is the perimeter of the circle with the wheelbase as diameter
+    
+    oldL = 0
+    
+    theta0 = _theta0 #theta0 is the initial orientation of the robot
+    x = _x0 #These btwo lines set the initial position of the robot to the origin
+    y = _y0
+
+def updatePosition(x, y):
+    global oldL
+
     #These two lines store the value in qp (quadrature pulse) of the two encoders
     enc1 = rc.ReadEncM1(address)
     enc2 = rc.ReadEncM2(address)
@@ -33,17 +50,17 @@ def updatePosition(x, y, oldL):
     pos2 = m2.qpToMm(enc2[1])
 
     #This bloc of lines display the values in qp and mm of the encoders
-    print("--------------")
-    print("Encoder1:"),
+    node.get_logger().debug("--------------")
+    node.get_logger().debug("Encoder1:"),
     if(enc1[0]==1):
-        print("{}qp  <=>  {}mm".format(enc1[1], pos1)),
+        node.get_logger().debug("{}qp  <=>  {}mm".format(enc1[1], pos1)),
     else:
-        print("failed"),
-    print("Encoder2:"),
+        node.get_logger().error("Encoder1 position failed"),
+    node.get_logger().debug("Encoder2:"),
     if(enc2[0]==1):
-       print("{}qp  <=>  {}mm".format(enc2[1], pos2)),
+        node.get_logger().debug("{}qp  <=>  {}mm".format(enc2[1], pos2)),
     else:
-        print("failed "),
+        node.get_logger().error("Encoder2 position failed"),
     print("")
         
     L = (1/2) * (pos1 + pos2) #L is the mean distance in mm between the distance of the two encoders 
@@ -53,29 +70,6 @@ def updatePosition(x, y, oldL):
     deltaY = deltaL*cos(radians(theta)) 
     x += deltaX #These two lines increment the differences
     y += deltaY
-    oldL = L
+    oldL = L 
 
-    #This bloc of line shows the robot position and orientation
-    print("x: {}".format(x))
-    print("y: {}".format(y))
-    print("Theta: {}".format(theta))
-
-    return x, y, oldL
-
-
-
-rc = Roboclaw("/dev/ttyAMA0",38400) #rc is our Roboclaw object
-rc.Open() #The serial port is opened
-address = 0x80 #The address represents the address of our Roboclaw if we want to communicate withy many Roboclaw 
-
-#m1 and m2 are the objects which represent our two motors
-m1 = Motor(wheelDiameter=60)
-m2 = Motor(wheelDiameter=60)
-
-#The x and y value are set to the origin
-x = 0
-y = 0
-
-#This loop updates the postion of the robot at each time
-while(1):
-    (x, y, oldL) = updatePosition(x, y, oldL)
+    return x, y, theta
