@@ -1,0 +1,12 @@
+package.xml
+setup.cfg
+setup.py
+resource/robot_cdr2022
+robot_cdr2022/__init__.py
+robot_cdr2022.egg-info/PKG-INFO
+robot_cdr2022.egg-info/SOURCES.txt
+robot_cdr2022.egg-info/dependency_links.txt
+robot_cdr2022.egg-info/entry_points.txt
+robot_cdr2022.egg-info/requires.txt
+robot_cdr2022.egg-info/top_level.txt
+robot_cdr2022.egg-info/zip-safe

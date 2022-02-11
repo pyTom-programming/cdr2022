@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing robot_cdr2022.egg-info/PKG-INFO
+writing dependency_links to robot_cdr2022.egg-info/dependency_links.txt
+writing entry points to robot_cdr2022.egg-info/entry_points.txt
+writing requirements to robot_cdr2022.egg-info/requires.txt
+writing top-level names to robot_cdr2022.egg-info/top_level.txt
+reading manifest file 'robot_cdr2022.egg-info/SOURCES.txt'
+writing manifest file 'robot_cdr2022.egg-info/SOURCES.txt'
+running build_ext
+Creating /theobald/cdr2022/dev_ws/install/hal/lib/python3.8/site-packages/robot-cdr2022.egg-link (link to .)
+Installing hal script to /theobald/cdr2022/dev_ws/install/hal/lib/robot_cdr2022
+
+Installed /theobald/cdr2022/dev_ws/build/hal
+running install_data

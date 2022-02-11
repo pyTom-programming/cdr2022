@@ -1,0 +1,2 @@
+Invoking command in '/theobald/cdr2022/dev_ws/build/robot_interfaces': /usr/bin/cmake /theobald/cdr2022/dev_ws/src/robot_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/theobald/cdr2022/dev_ws/install/robot_interfaces
+Invoked command in '/theobald/cdr2022/dev_ws/build/robot_interfaces' returned '1': /usr/bin/cmake /theobald/cdr2022/dev_ws/src/robot_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/theobald/cdr2022/dev_ws/install/robot_interfaces

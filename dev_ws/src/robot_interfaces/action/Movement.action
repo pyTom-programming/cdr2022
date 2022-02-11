@@ -1,0 +1,8 @@
+int8 movement_type
+float64 translation_setpoint
+float64 rotation_setpoint
+---
+float64 x_error
+float64 y_error
+float64 theta_error
+---

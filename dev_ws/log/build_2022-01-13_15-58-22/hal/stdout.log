@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating hal.egg-info
+writing hal.egg-info/PKG-INFO
+writing dependency_links to hal.egg-info/dependency_links.txt
+writing entry points to hal.egg-info/entry_points.txt
+writing requirements to hal.egg-info/requires.txt
+writing top-level names to hal.egg-info/top_level.txt
+writing manifest file 'hal.egg-info/SOURCES.txt'
+reading manifest file 'hal.egg-info/SOURCES.txt'
+writing manifest file 'hal.egg-info/SOURCES.txt'
+running build_ext
+Creating /theobald/cdr2022/dev_ws/install/hal/lib/python3.8/site-packages/site.py
+Creating /theobald/cdr2022/dev_ws/install/hal/lib/python3.8/site-packages/hal.egg-link (link to .)
+
+Installed /theobald/cdr2022/dev_ws/build/hal
+running install_data
+creating /theobald/cdr2022/dev_ws/install/hal/share/ament_index
+creating /theobald/cdr2022/dev_ws/install/hal/share/ament_index/resource_index
+creating /theobald/cdr2022/dev_ws/install/hal/share/ament_index/resource_index/packages
+copying resource/hal -> /theobald/cdr2022/dev_ws/install/hal/share/ament_index/resource_index/packages
+copying package.xml -> /theobald/cdr2022/dev_ws/install/hal/share/hal

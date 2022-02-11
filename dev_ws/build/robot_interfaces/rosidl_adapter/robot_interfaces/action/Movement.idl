@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from robot_interfaces/action/Movement.action
+// generated code does not contain a copyright notice
+
+
+module robot_interfaces {
+  module action {
+    struct Movement_Goal {
+      int8 movement_type;
+
+      double translation_setpoint;
+
+      double rotation_setpoint;
+    };
+    struct Movement_Result {
+      double x_error;
+
+      double y_error;
+
+      double theta_error;
+    };
+    struct Movement_Feedback {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

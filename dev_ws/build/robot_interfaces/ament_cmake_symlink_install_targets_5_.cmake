@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/theobald/cdr2022/dev_ws/build/robot_interfaces/rosidl_generator_py/robot_interfaces/librobot_interfaces__python.so" "TARGETS" "robot_interfaces__python" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")
